@@ -16,6 +16,7 @@
 		ADC48F4128D6FBC80046A232 /* SimpleToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC48F4028D6FBC80046A232 /* SimpleToDoTests.swift */; };
 		ADC48F4B28D6FBC80046A232 /* SimpleToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC48F4A28D6FBC80046A232 /* SimpleToDoUITests.swift */; };
 		ADC48F4D28D6FBC80046A232 /* SimpleToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC48F4C28D6FBC80046A232 /* SimpleToDoUITestsLaunchTests.swift */; };
+		ADC48F5B28D6FE5C0046A232 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC48F5A28D6FE5C0046A232 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		ADC48F4628D6FBC80046A232 /* SimpleToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC48F4A28D6FBC80046A232 /* SimpleToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoUITests.swift; sourceTree = "<group>"; };
 		ADC48F4C28D6FBC80046A232 /* SimpleToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADC48F5A28D6FE5C0046A232 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		ADC48F2928D6FBC40046A232 /* SimpleToDo */ = {
 			isa = PBXGroup;
 			children = (
+				ADC48F5928D6FE130046A232 /* Managers */,
 				ADC48F2A28D6FBC40046A232 /* SimpleToDoApp.swift */,
 				ADC48F2C28D6FBC40046A232 /* ContentView.swift */,
 				ADC48F2E28D6FBC80046A232 /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				ADC48F4C28D6FBC80046A232 /* SimpleToDoUITestsLaunchTests.swift */,
 			);
 			path = SimpleToDoUITests;
+			sourceTree = "<group>";
+		};
+		ADC48F5928D6FE130046A232 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADC48F5A28D6FE5C0046A232 /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				ADC48F3428D6FBC80046A232 /* Persistence.swift in Sources */,
 				ADC48F2D28D6FBC40046A232 /* ContentView.swift in Sources */,
 				ADC48F2B28D6FBC40046A232 /* SimpleToDoApp.swift in Sources */,
+				ADC48F5B28D6FE5C0046A232 /* CoreDataManager.swift in Sources */,
 				ADC48F3728D6FBC80046A232 /* SimpleToDo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

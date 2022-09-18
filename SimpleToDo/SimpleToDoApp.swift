@@ -9,12 +9,15 @@ import SwiftUI
 
 @main
 struct SimpleToDoApp: App {
-    let persistenceController = PersistenceController.shared
+    
+    let persistenceContainer = CoreDataManager.shared.persistentContainer
+    
+    
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, persistenceContainer.viewContext)
         }
     }
 }
